@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css.css">
+    <link rel="icon" href="img/money.png">
+    <title>INSS Calculator</title>
+</head>
+<body>
+<div class="box">
+<div class="box-itens">
+        <div class="inputs">
+            <h1>INSS Calculator</h1>
+            <label>Salario Base</label>
+            <input type="number" id="salario" placeholder="Digite seu salario base...">
+            <label>Adicional Noturno (Opcional)</label>
+            <input type="number" id="noturno" placeholder="Digite seu adicional noturno...">
+            <label>Adcional Extra (Opcional)</label>
+            <input type="number" id="extras" placeholder="Digite suas horas extras...">
+            <div class="buttons">
+                <button onclick="Atualizar()" id="btnAtualizar">Atualizar</button>
+                <button id="btn">Calcular</button>
+            </div>
+            <input type="text" id="calculoSalario" class="inputValue" placeholder="Seu salario" disabled>
+            <input type="text" id="calculoDesconto" class="inputValue" placeholder="Descontos" disabled>
+        </div>
+    </div>
+    <div class="cop">
+        <p>Create By Thiago Ribeiro Antunes</p>
+        <a href="https://instagram.com/thiag0_ksss?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">@thiag0_Ksss</a>
+    </div>
+    </div>
+    
+    <script src="js/funcao.js"></script>
+</body>
+</html>
