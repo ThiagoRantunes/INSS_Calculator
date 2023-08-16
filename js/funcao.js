@@ -74,9 +74,9 @@ while(true){
         break;
     }else if(totalSalario <= mediaSalario[3] || totalSalario > mediaSalario[3]){
         var desconto1 = mediaSalario[0] * mediaPorcentagem[0];
-        var desconto2 = (mediaSalario[1] - mediaSalario[0]) * mediaPorcentagem[0];
-        var desconto3 = (mediaSalario[2] - mediaSalario[1]) * mediaPorcentagem[1];
-        var desconto4 = (totalSalario - mediaSalario[2]) * mediaPorcentagem[2];
+        var desconto2 = (mediaSalario[1] - mediaSalario[0]) * mediaPorcentagem[1];
+        var desconto3 = (mediaSalario[2] - mediaSalario[1]) * mediaPorcentagem[2];
+        var desconto4 = (totalSalario - mediaSalario[2]) * mediaPorcentagem[3];
         var calculoDes = desconto1 + desconto2 + desconto3 + desconto4;
         calculoDesconto.value = formater.format(calculoDes);
         calculoSalario.value = formater.format(totalSalario - calculoDes);
