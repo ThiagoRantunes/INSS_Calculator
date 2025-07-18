@@ -8,8 +8,8 @@ const calculoDesconto = document.getElementById("calculoDesconto");
 
 var totalSalario = 0;
 
-//Valores do INSS Atual
-const mediaSalario = [1320.00, 2571.29, 3856.94, 7507.49];
+//Valores do INSS Atual 2025
+const mediaSalario = [1518.00, 2793.88, 4190.83, 8157.41];
 const mediaPorcentagem = [0.075, 0.09, 0.12, 0.14];
 
 function Atualizar(){
